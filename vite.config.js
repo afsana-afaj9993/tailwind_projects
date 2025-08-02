@@ -1,5 +1,5 @@
 import { resolve } from "pathe";
-import { build, defineConfig, Rollup } from "vite";
+import { defineConfig } from "vite";
 
 export default defineconfig( {
     build :{
@@ -10,12 +10,7 @@ export default defineconfig( {
                 news : resolve(__dirname,"news.html"),
             },
     
-        } ,   
-        
-        
+          } ,   
 
-    } ,
-
-
-    
-}),
+          } ,
+       });
